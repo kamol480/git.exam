@@ -578,6 +578,10 @@ video {
   margin-top: -75px;
 }
 
+.mt-\[10px\] {
+  margin-top: 10px;
+}
+
 .mt-\[30px\] {
   margin-top: 30px;
 }
@@ -586,8 +590,32 @@ video {
   margin-top: 40px;
 }
 
-.block {
-  display: block;
+.ml-\[40px\] {
+  margin-left: 40px;
+}
+
+.ml-\[50px\] {
+  margin-left: 50px;
+}
+
+.ml-\[100px\] {
+  margin-left: 100px;
+}
+
+.ml-\[70px\] {
+  margin-left: 70px;
+}
+
+.ml-\[60px\] {
+  margin-left: 60px;
+}
+
+.mt-\[100px\] {
+  margin-top: 100px;
+}
+
+.mt-\[0px\] {
+  margin-top: 0px;
 }
 
 .flex {
@@ -598,24 +626,16 @@ video {
   display: none;
 }
 
-.h-\[300px\] {
-  height: 300px;
-}
-
 .h-\[40px\] {
   height: 40px;
-}
-
-.h-\[50px\] {
-  height: 50px;
 }
 
 .h-\[500px\] {
   height: 500px;
 }
 
-.h-\[\] {
-  height: ;
+.h-\[50px\] {
+  height: 50px;
 }
 
 .w-\[100\%\] {
@@ -630,32 +650,12 @@ video {
   width: 200px;
 }
 
-.w-\[300px\] {
-  width: 300px;
-}
-
-.w-\[10000px\] {
-  width: 10000px;
-}
-
-.w-\[00px\] {
-  width: 00px;
-}
-
 .w-\[\] {
   width: ;
 }
 
-.w-\[\%\] {
-  width: %;
-}
-
-.w-\[500px\%\] {
-  width: 500px%;
-}
-
-.w-\[500px\] {
-  width: 500px;
+.w-\[300px\] {
+  width: 300px;
 }
 
 .justify-around {
@@ -671,6 +671,11 @@ video {
 }
 
 .border-\[black\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity, 1));
+}
+
+.border-black {
   --tw-border-opacity: 1;
   border-color: rgb(0 0 0 / var(--tw-border-opacity, 1));
 }
@@ -693,14 +698,14 @@ video {
   font-family: Verdana;
 }
 
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
-}
-
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 
 .font-bold {
@@ -713,12 +718,48 @@ video {
 }
 
 @media (min-width: 640px) {
+  .sm\:ml-\[3\] {
+    margin-left: 3;
+  }
+
+  .sm\:ml-\[30px\] {
+    margin-left: 30px;
+  }
+
+  .sm\:ml-\[50px\] {
+    margin-left: 50px;
+  }
+
+  .sm\:ml-\[100px\] {
+    margin-left: 100px;
+  }
+
+  .sm\:ml-\[70px\] {
+    margin-left: 70px;
+  }
+
+  .sm\:mt-\[20px\] {
+    margin-top: 20px;
+  }
+
+  .sm\:mt-\[0px\] {
+    margin-top: 0px;
+  }
+
+  .sm\:mt-\[100px\] {
+    margin-top: 100px;
+  }
+
+  .sm\:mt-\[\] {
+    margin-top: ;
+  }
+
   .sm\:block {
     display: block;
   }
 
-  .sm\:text-center {
-    text-align: center;
+  .sm\:gap-20 {
+    gap: 5rem;
   }
 }
 
